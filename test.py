@@ -11,6 +11,7 @@ from tensorflow.keras import backend as K
 
 text_paths = glob.glob('G:/data_thchs30/data_thchs30/data/*.trn')
 
+
 # 获取匹配到的文件总数
 total = len(text_paths)
 
